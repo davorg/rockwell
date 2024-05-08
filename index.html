@@ -9,40 +9,78 @@
     <title>A Spaceship Has Landed on Earth. It Came From Rockwell</title>
     <link rel="icon" href="favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://itcamefromrockwell.com/">
+    <meta property="og:title" content="A Spaceship Has Landed on Earth. It Came From Rockwell">
+    <meta property="og:description" content="A look at the Rockwell Space Shuttle advert from OMNI #1 (October 1978)">
+    <meta property="og:image" content="/img/spaceshuttle_og.png">
+      
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://itcamefromrockwell.com/">
+    <meta property="twitter:title" content="A Spaceship Has Landed on Earth. It Came From Rockwell">
+    <meta property="twitter:description" content="A look at the Rockwell Space Shuttle advert from OMNI #1 (October 1978)">
+    <meta property="twitter:image" content="/img/spaceshuttle_og.png">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "A Spaceship Has Landed on Earth. It Came From Rockwell",
+          "description": "Discover the story behind one of the most iconic aerospace advertisements in the 1978 inaugural issue of Omni magazine.",
+          "url": "https://itcamefromrockwell.com/",
+          "image": "https://itcamefromrockwell.com/img/spaceshuttle_og.png",
+          "author": {
+            "@type": "Person",
+            "name": "Dave Cross"
+          },
+        }
+        </script>
+
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">A Spaceship Has Landed on Earth. It Came From Rockwell</a>
       </div>
     </nav>
 
-    <main>
+    <main class="flex-grow-1">
       <div class="hero text-center">
-        <h1 class="display-4">A Spaceship Has Landed on Earth. It Came From Rockwell</h1>
-        <p class="lead">Discover the story behind one of the most iconic aerospace advertisements in the 1978 inaugural issue of Omni magazine.</p>
+        <header>
+          <h1 class="display-4">A Spaceship Has Landed on Earth. It Came From Rockwell</h1>
+          <p class="lead">Discover the story behind one of the most iconic aerospace advertisements in the 1978 inaugural issue of Omni magazine.</p>
+        </header>
       </div>
 
       <div class="container py-5">
         <div class="row">
-            <div class="col-md-6">
-              <div class="card">
-                <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Rockwell Space Shuttle">
-                <div class="card-body">
-                  <h5 class="card-title">Rockwell and the Space Shuttle</h5>
-                  <p class="card-text">Learn about how Rockwell International played a pivotal role in the Space Shuttle program, contributing to one of the most significant achievements in space exploration.</p>
-                  <a href="https://blog.dave.org.uk/2011/07/a-spaceship-has-landed-on-earth.html" target="_blank" rel="noopener" class="btn btn-primary">Read More</a>
-                </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img src="/img/orig_landscape.jpg" class="card-img-top img-fluid" alt="Image of the Rockwell Space Shuttle">
+              <div class="card-body">
+                <h2 class="card-title h4">Rockwell and the Space Shuttle</h2>
+                <p class="card-text">The first issue of OMNI magazine (from
+                  October 1978) contained an advert for Rockwell which was
+                  supposed to be used as an iron-on transfer. This blog post
+                  looks at ad in more detail.</p>
+                <a href="https://blog.dave.org.uk/2011/07/a-spaceship-has-landed-on-earth.html" class="btn btn-primary" target="_blank" rel="noopener">Read More</a>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="card">
-                <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Merchandise">
-                <div class="card-body">
-                <h5 class="card-title">Merchandise</h5>
-                <p class="card-text">Check out our Redbubble shop for merchandise featuring the iconic design from the advert.</p>
-                <a href="https://www.redbubble.com/shop/ap/101729258" class="btn btn-success">Visit Shop</a>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img src="/img/shirts.jpg" class="card-img-top img-fluid" alt="People wearing our t-shirts">
+              <div class="card-body">
+                <h2 class="card-title h4">Merchandise</h2>
+                <p class="card-text">The iron-on transfer didn't work very
+                  well, but we now have sites like Redbubble that allow us to
+                  bring the original designer's idea to life on various
+                  products.</p>
+                <a href="https://www.redbubble.com/shop/ap/101729258" class="btn btn-primary" target="_blank" rel="noopener">Visit Shop</a>
               </div>
             </div>
           </div>
@@ -52,7 +90,7 @@
 
     <footer class="bg-dark text-light text-center text-lg-start">
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.5);">
-        © 2024 It Came From Rockwell Advertisement
+        Made by <a href="https://links.davecross.co.uk/" class="text-white">Dave Cross</a>
       </div>
     </footer>
 
